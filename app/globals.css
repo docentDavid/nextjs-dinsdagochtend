@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: Underdog, sans-serif;
+}
