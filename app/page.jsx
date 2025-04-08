@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main className="py-12 px-4 sm:px-6 lg:px-8">
@@ -17,6 +19,13 @@ export default function Home() {
           applications, with support for pages, routing, API routes, and easy
           deployment.
         </p>
+        <Image
+          src="/nextjs-logo.jpg"
+          alt="Next.js Logo"
+          width={360}
+          height={240}
+          className="mt-6 mx-auto"
+        />
       </div>
     </main>
   );
